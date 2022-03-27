@@ -11,6 +11,7 @@
   inputs.src-nimp-master.ref   = "refs/heads/master";
   inputs.src-nimp-master.owner = "c-blake";
   inputs.src-nimp-master.repo  = "nimp";
+  inputs.src-nimp-master.dir   = "";
   inputs.src-nimp-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
